@@ -1,0 +1,248 @@
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\csc.exe
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\System.Collections.Immutable.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\System.Reflection.Metadata.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\vbc.exe
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\VBCSCompiler.exe
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\VBCSCompiler.exe.config
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbWeb.dll.config
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbWeb.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbWeb.pdb
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Antlr3.Runtime.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.SqlServer.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Azure.KeyVault.Core.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Edm.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.OData.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Services.Client.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Facebook.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Google.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.OAuth.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Twitter.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Web.Infrastructure.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Diagnostics.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Storage.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Newtonsoft.Json.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Owin.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Spatial.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Helpers.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Mvc.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Optimization.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Razor.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Deployment.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Razor.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbCommon.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\WebGrease.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\MonAgentListener.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbCommon.pdb
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Azure.KeyVault.Core.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Edm.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.OData.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Services.Client.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Storage.pdb
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Storage.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Newtonsoft.Json.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Spatial.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Helpers.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Mvc.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Optimization.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Razor.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Deployment.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Razor.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Antlr3.Runtime.pdb
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.SqlServer.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Core.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Facebook.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Cookies.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.OAuth.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Google.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Twitter.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\de\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\es\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\it\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\de\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\es\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\fr\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\it\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ja\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ko\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ru\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\de\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\es\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\fr\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\it\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ja\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ko\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ru\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\de\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\es\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\fr\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\it\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ja\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ko\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\ru\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\System.Spatial.resources.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\obj\Debug\UniversityDbWeb.csprojResolveAssemblyReference.cache
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\obj\Debug\UniversityDbWeb.dll
+c:\Projects\UniversityDbCloudService\UniversityDbWeb\obj\Debug\UniversityDbWeb.pdb
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\csc.exe
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\vbc.exe
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbWeb.dll.config
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbWeb.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbWeb.pdb
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Edm.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.OData.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Services.Client.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Owin.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Spatial.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Razor.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbCommon.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\WebGrease.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\MonAgentListener.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\UniversityDbCommon.pdb
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Edm.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.OData.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Spatial.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.Razor.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\de\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\es\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\fr\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\it\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ja\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ko\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\ru\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\obj\Debug\UniversityDbWeb.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\obj\Debug\UniversityDbWeb.dll
+C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbWeb\obj\Debug\UniversityDbWeb.pdb

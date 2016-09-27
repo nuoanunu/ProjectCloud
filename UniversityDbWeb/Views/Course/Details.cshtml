@@ -1,0 +1,158 @@
+﻿@model UniversityDbCommon.Models.Course
+
+@{
+    ViewBag.Title = "Details";
+}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<script>
+    function TurnOnFix() {
+        //Show field, button
+        $('.hiddenField').show();
+        $('#confirm').show();
+        $('#cancelbtn').show();
+        //Hide text
+        $('.datalabel').hide();
+        $('#editbtn').hide();
+    }
+    function TurnOffFix() {
+        //Show field, button
+        $('.hiddenField').hide();
+        $('#confirm').hide();
+        $('#cancelbtn').hide();
+        //Hide text
+        $('.datalabel').show();
+        $('#editbtn').show();
+    }
+  $(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
+
+<h2>Details</h2>
+
+<div>
+    <h4>Course</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Credits)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Credits)
+        </dd>
+        </br>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments)
+        </dt>
+
+        <dd>
+            @using (Html.BeginForm("EditScore", "Course", FormMethod.Post, new { enctype = "multipart/form-data", @id = "myForm" }))
+            {
+                int index = 0;
+                String studentname = "";
+                @Html.HiddenFor(model => model.CourseID)
+                @Html.HiddenFor(model => model.Title)
+                <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <tr>
+                        <th>ID</th>
+                        <th>Student Name</th>
+                        <th>Quiz 1</th>
+                        <th>Quiz 2</th>
+                        <th>Quiz 3</th>
+                        <th>Midterm</th>
+                        <th>Project</th>
+                        <th>Final</th>
+                    </tr>
+                    @foreach (var item in Model.Enrollments)
+                    {
+
+
+                        <tr>
+                            <td>
+                                <p> @item.StudentID </p>
+
+                                <img src="@item.Student.ProfileThumbnailUrl" />
+                            </td>
+                            <td>
+                                <p> @item.Student.FullName </p>
+
+                            </td>
+                            <td>
+                                <p class="datalabel"> @item.Quiz1 </p>
+
+                                @Html.TextBoxFor(modelItem => Model.Enrollments[index].Quiz1, new { @style = "display:none", @class = "hiddenField" })
+                            </td>
+                            <td>
+                                <p class="datalabel"> @item.Quiz2 </p>
+
+                                @Html.TextBoxFor(modelItem => Model.Enrollments[index].Quiz2, new { @style = "display:none", @class = "hiddenField" })
+                            </td>
+                            <td>
+                                <p class="datalabel"> @item.Quiz3 </p>
+
+                                @Html.TextBoxFor(modelItem => Model.Enrollments[index].Quiz3, new { @style = "display:none", @class = "hiddenField" })
+                            </td>
+                            <td>
+                                <p class="datalabel"> @item.Midterm </p>
+
+                                @Html.TextBoxFor(modelItem => Model.Enrollments[index].Midterm, new { @style = "display:none", @class = "hiddenField" })
+                            </td>
+                            <td>
+                                <p class="datalabel"> @item.Project </p>
+
+                                @Html.TextBoxFor(modelItem => Model.Enrollments[index].Project, new { @style = "display:none", @class = "hiddenField" })
+                            </td>
+                            <td>
+                                <p class="datalabel"> @item.Final </p>
+
+                                @Html.TextBoxFor(modelItem => Model.Enrollments[index].Final, new { @style = "display:none", @class = "hiddenField" })
+                            </td>
+                        </tr>
+                        @Html.HiddenFor(model => Model.Enrollments[index].StudentID)
+
+                        @Html.HiddenFor(modelItem => Model.Enrollments[index].EnrollmentID)
+                        index = index + 1;
+
+                    }
+
+                </table>
+                <button type="submit" id="confirm" class="btn btn-default" style="display:none">Confirm</button>
+            }
+            <button id="editbtn" class="btn btn-default" onclick="TurnOnFix()">Edit Scores</button>
+
+            <button id="cancelbtn" class="btn btn-default" onclick="TurnOffFix()" style="display:none">Cancel</button>
+        </dd>
+
+        <dt></dt>
+
+        <dd>
+            @using (Html.BeginForm("AddStudent", "Course", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <div>
+                        @Html.Hidden("id", Model.CourseID)
+                        @Html.TextBox("studentId")
+                        <input type="submit" value="Add Student" class="btn btn-default" />
+                        <p class="error">@ViewBag.ErrorMessage</p>
+                    </div>
+                </div>
+            }
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CourseID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
