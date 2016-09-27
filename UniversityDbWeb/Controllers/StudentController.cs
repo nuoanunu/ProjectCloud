@@ -77,7 +77,7 @@ namespace UniversityDbWeb.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "LastName,FirstMidName,EnrollmentDate")] Student student,
+        public async Task<ActionResult> Create([Bind(Include = "LastName,FirstMidName,Email,EnrollmentDate")] Student student,
             HttpPostedFileBase imageFile)
         {
             CloudBlockBlob imageBlob = null;
@@ -132,7 +132,7 @@ namespace UniversityDbWeb.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate")] Student student,
+        public async Task<ActionResult> Edit([Bind(Include = "ID,LastName,FirstMidName,Email,EnrollmentDate")] Student student,
             HttpPostedFileBase imageFile)
         {
             CloudBlockBlob imageBlob = null;
