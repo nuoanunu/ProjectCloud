@@ -22,7 +22,7 @@
     <Property name="Configuration" value="Debug" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5.2" />
-    <Property name="OutputDir" value="C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCloudService\obj\Debug\WorkerRoleMail\" />
+    <Property name="OutputDir" value="C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\obj\Debug\WorkerRoleMail\" />
     <Property name="EntryPoint" value="WorkerRoleMail.dll" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />

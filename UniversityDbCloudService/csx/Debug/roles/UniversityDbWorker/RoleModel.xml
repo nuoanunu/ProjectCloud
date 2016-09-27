@@ -22,7 +22,7 @@
     <Property name="Configuration" value="Debug" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5.2" />
-    <Property name="OutputDir" value="C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCloudService\obj\Debug\UniversityDbWorker\" />
+    <Property name="OutputDir" value="C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\obj\Debug\UniversityDbWorker\" />
     <Property name="EntryPoint" value="UniversityDbWorker.dll" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />

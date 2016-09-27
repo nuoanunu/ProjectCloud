@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UniversityDbCloudService" generation="1" functional="0" release="0" Id="4c2bb4d3-ba81-4d31-8b60-1aaa51ad1b33" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UniversityDbCloudService" generation="1" functional="0" release="0" Id="5a4f8321-f7b1-47d4-a93f-d32a038169d1" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="UniversityDbCloudServiceGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -132,7 +132,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="UniversityDbWeb" generation="1" functional="0" release="0" software="C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="UniversityDbWeb" generation="1" functional="0" release="0" software="C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -153,7 +153,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="UniversityDbWorker" generation="1" functional="0" release="0" software="C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCloudService\csx\Debug\roles\UniversityDbWorker" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="UniversityDbWorker" generation="1" functional="0" release="0" software="C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWorker" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="" />
               <aCS name="StorageConnectionString" defaultValue="" />
@@ -172,7 +172,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="WorkerRoleMail" generation="1" functional="0" release="0" software="C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCloudService\csx\Debug\roles\WorkerRoleMail" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="WorkerRoleMail" generation="1" functional="0" release="0" software="C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\WorkerRoleMail" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="" />
               <aCS name="StorageConnectionString" defaultValue="" />
@@ -205,9 +205,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="c528a1d6-e895-4ae9-8d5b-222a8b74a3b6" ref="Microsoft.RedDog.Contract\ServiceContract\UniversityDbCloudServiceContract@ServiceDefinition">
+    <implementation Id="d5443de0-7266-41e6-bb0e-482ec1567292" ref="Microsoft.RedDog.Contract\ServiceContract\UniversityDbCloudServiceContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="81369857-2d9d-47d6-af97-618265c169b3" ref="Microsoft.RedDog.Contract\Interface\UniversityDbWeb:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="3fe6fc8a-af43-4b5b-a3fc-623f9527725b" ref="Microsoft.RedDog.Contract\Interface\UniversityDbWeb:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/UniversityDbCloudService/UniversityDbCloudServiceGroup/UniversityDbWeb:Endpoint1" />
           </inPort>
