@@ -1,17 +1,19 @@
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Emulator config file set to C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] DiagnosticsStoreRootPath set to: C:\Users\Nguyen Nhat\AppData\Local\dftmp\Resources\98192df9-5158-43df-97e3-9e5c5f3cfe32
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Loading config file: C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Config file to read: C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Checking VM Type
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Emulator config file set to C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Extension set to Emulator Mode
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Reading XML configuration file
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Bypassing private config decryption
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:41] Stopping the running plugin, if any
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:42] No DiagnosticsPlugin is running.
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:42] Killing any DiagnosticsPlugin that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:42] Killing any MonAgentHost that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:42] Diagnostics plugin stopped successfully
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:41:42] Resetting DiagnosticPlugin
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:42:52] DiagnosticsPlugin launched successfully with new configuration
-DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 11:42:52] DiagnosticPlugin exited with code 0
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Emulator config file set to C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] DiagnosticsStoreRootPath set to: C:\Users\Nguyen Nhat\AppData\Local\dftmp\Resources\d0763c87-eb4c-424b-b2e2-19369ec40055
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Loading config file: C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Config file to read: C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Emulator config file set to C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCloudService\csx\Debug\roles\UniversityDbWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:13] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:14] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:14] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:28:14] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:29:24] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [27/09/2016 12:29:24] DiagnosticPlugin exited with code 0

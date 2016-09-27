@@ -16,6 +16,7 @@ using Microsoft.WindowsAzure.Storage.RetryPolicies;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.IO;
+using System.Data.SqlClient;
 
 namespace UniversityDbWeb.Controllers
 {
@@ -252,6 +253,55 @@ namespace UniversityDbWeb.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        [ValidateInput(false)]
+        public ActionResult SendIdToQueue(int studentid, String emailContent)
+        {
+
+    
+            try
+            {
+                //SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+
+                //builder.DataSource = "NHATVHNSE61418\\MS5";
+                //builder.InitialCatalog = "UniversityDatabase";
+                //builder.UserID = "sa";
+                //// builder.Password = "123";
+                //builder.IntegratedSecurity = true;
+
+                //connection = new SqlConnection(builder.ConnectionString);
+                //connection.Open();
+
+                //string updateSQL = "UPDATE Student SET content = @p2 WHERE id=@p1";
+
+                //SqlCommand command = new SqlCommand(updateSQL);
+                //command.Connection = connection;
+                //command.Parameters.Add(new SqlParameter("p2", content));
+                //command.Parameters.Add(new SqlParameter("p1", id));
+
+                //int count = command.ExecuteNonQuery();
+                CloudQueue queue = getque();
+
+                CloudQueueMessage message = new CloudQueueMessage(studentid + "[thisisthespliter]" + emailContent);
+                queue.AddMessage(message);
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+  
+            }
+
+        }
+        public CloudQueue getque() {
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("UseDevelopmentStorage=true");
+            CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
+            CloudQueue queue = queueClient.GetQueueReference("studentMail");
+            queue.CreateIfNotExists();
+            return queue;
         }
     }
 }

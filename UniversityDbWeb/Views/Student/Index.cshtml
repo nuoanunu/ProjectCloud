@@ -4,6 +4,9 @@
     ViewBag.Title = "Index";
 }
 
+<script src="~/Scripts/tinymce/jquery.tinymce.min.js"></script>
+<script src="~/Scripts/tinymce/tinymce.min.js"></script>
+<script>tinymce.init({ selector:'textarea' });</script>
 <h2>Index</h2>
 
 <p>
@@ -55,4 +58,23 @@
         </tr>
     }
 
+
 </table>
+@using (Html.BeginForm("SendIdToQueue", "Student"))
+{
+    <h2>Make new email</h2>
+        <div class="form-group">
+            <label>To student</label>
+            <select name="studentid">
+                @foreach (var item in Model)
+                {
+                    <option value="@item.ID">@item.FullName</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+
+            <textarea name="emailContent"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="buttonSend">Send</button>
+}

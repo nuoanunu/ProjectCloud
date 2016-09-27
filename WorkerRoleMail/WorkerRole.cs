@@ -53,8 +53,8 @@ namespace UniversityDbWorker
             {
                 try
                 {
-                    NhatLuoiLamTHemWorkerAhihi();
-                  
+                    GetGradeMailMessage();
+                    getInformailMessage();
                 }
                 catch (StorageException e)
                 {
@@ -143,32 +143,8 @@ namespace UniversityDbWorker
 
 
 
-        private void UpdateProfileThumbnail(int id, string uri)
-        {
-            string query = "UPDATE Student SET ProfileThumbnailUrl = @uri WHERE ID=@id";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@uri", uri);
-            command.Parameters.AddWithValue("@id", id);
-            command.ExecuteNonQuery();
-        }
 
-        private string GetProfileImage(int id)
-        {
-            string url = null;
-
-            string query = "SELECT ProfileImageUrl FROM Student WHERE ID = @id";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@id", id);
-
-            SqlDataReader reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                url = reader[0].ToString();
-            }
-            reader.Close();
-
-            return url;
-        }
+      
         private string getProfileEmail(int id)
         {
             string url = null;
@@ -187,7 +163,7 @@ namespace UniversityDbWorker
             return url;
         }
 
-        public void NhatLuoiLamTHemWorkerAhihi()
+        public void GetGradeMailMessage()
         {
             CloudStorageAccount ac = CloudStorageAccount.Parse("UseDevelopmentStorage=true");
             CloudQueueClient qclient = ac.CreateCloudQueueClient();
@@ -198,13 +174,27 @@ namespace UniversityDbWorker
             {
                 JavaScriptSerializer serializer = new JavaScriptSerializer();
                 JsonMessage emailcontent = serializer.Deserialize<JsonMessage>(mess.AsString);
-                System.Diagnostics.Debug.WriteLine(emailcontent.CourseID + "FUCKKKKKKKKKKK ");
-                guimail(emailcontent);
+
+                newGradeMail(emailcontent);
                 que.DeleteMessage(mess);
             }
 
         }
-        public async void guimail(JsonMessage mailcontent)
+        public void getInformailMessage() {
+            CloudStorageAccount ac = CloudStorageAccount.Parse("UseDevelopmentStorage=true");
+            CloudQueueClient qclient = ac.CreateCloudQueueClient();
+            CloudQueue que = qclient.GetQueueReference("StudentMail");
+            que.CreateIfNotExists();
+            CloudQueueMessage mess = que.GetMessage();
+            if (mess != null)
+            {
+                String[] content = (mess.AsString).Split(new[] { "[thisisthespliter]" }, StringSplitOptions.RemoveEmptyEntries);
+
+                informMail(int.Parse(content[0]) , content[1]);
+                que.DeleteMessage(mess);
+            }
+        }
+        public async void newGradeMail(JsonMessage mailcontent)
         {
             var body = "<p>Email From: {0} ({1})</p><p>Message:</p><p>{2}</p>";
             var message = new MailMessage();
@@ -267,6 +257,36 @@ namespace UniversityDbWorker
 
 
 
+
+
+
+            message.Body = string.Format(body, "dwarpro@gmail.com", "dwarpro@gmail.com", content);
+            message.IsBodyHtml = true;
+
+            using (var smtp = new SmtpClient())
+            {
+                var credential = new NetworkCredential
+                {
+                    UserName = "dwarpro@gmail.com",  // replace with valid value
+                    Password = "320395qww"  // replace with valid value
+                };
+                smtp.Credentials = credential;
+                smtp.Host = "smtp.gmail.com";
+                smtp.Port = 587;
+                smtp.EnableSsl = true;
+                await smtp.SendMailAsync(message);
+
+            }
+
+        }
+        public async void informMail(int id, String content)
+        {
+            var body = "<p>Email From: {0} ({1})</p><p>Message:</p><p>{2}</p>";
+            var message = new MailMessage();
+            message.To.Add(new MailAddress(getProfileEmail(id)));  // replace with valid value 
+            message.From = new MailAddress("dwarpro@gmail.com");  // replace with valid value
+            message.Subject = "Thong bao sua diem";
+           
 
 
 

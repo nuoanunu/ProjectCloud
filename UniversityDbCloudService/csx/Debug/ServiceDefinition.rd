@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UniversityDbCloudService" generation="1" functional="0" release="0" Id="5a4f8321-f7b1-47d4-a93f-d32a038169d1" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UniversityDbCloudService" generation="1" functional="0" release="0" Id="b4c48d34-a245-4b8b-83a2-8750610ca31a" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="UniversityDbCloudServiceGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -205,9 +205,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="d5443de0-7266-41e6-bb0e-482ec1567292" ref="Microsoft.RedDog.Contract\ServiceContract\UniversityDbCloudServiceContract@ServiceDefinition">
+    <implementation Id="d022b52b-fa11-42b2-8214-01f4ab778220" ref="Microsoft.RedDog.Contract\ServiceContract\UniversityDbCloudServiceContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="3fe6fc8a-af43-4b5b-a3fc-623f9527725b" ref="Microsoft.RedDog.Contract\Interface\UniversityDbWeb:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="06509693-0495-430a-b2f2-9f3f904f30b3" ref="Microsoft.RedDog.Contract\Interface\UniversityDbWeb:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/UniversityDbCloudService/UniversityDbCloudServiceGroup/UniversityDbWeb:Endpoint1" />
           </inPort>
