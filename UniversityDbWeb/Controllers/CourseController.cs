@@ -143,10 +143,11 @@ namespace UniversityDbWeb.Controllers
         {
             try
             {
-                bool flag = false;
+            
                 Course oldcourse = db.Courses.Find(course.CourseID);
                 foreach (Enrollment enroll in course.Enrollments)
                 {
+                    bool flag = false;
                     JsonMessage message = new JsonMessage();
                     message.StudentID = enroll.StudentID + "";
                     message.CourseID = course.Title;

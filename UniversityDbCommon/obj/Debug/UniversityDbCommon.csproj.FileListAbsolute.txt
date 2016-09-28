@@ -26,3 +26,17 @@ C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCommon
 C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCommon\obj\Debug\UniversityDbCommon.csprojResolveAssemblyReference.cache
 C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCommon\obj\Debug\UniversityDbCommon.dll
 C:\Users\Nguyen Nhat\Downloads\Video\UniversityDbCloudService\UniversityDbCommon\obj\Debug\UniversityDbCommon.pdb
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\UniversityDbCommon.dll.config
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\UniversityDbCommon.dll
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\UniversityDbCommon.pdb
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\EntityFramework.dll
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\EntityFramework.xml
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\obj\Debug\UniversityDbCommon.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\obj\Debug\UniversityDbCommon.dll
+C:\Users\Nguyen Nhat\Desktop\ProjectCloud\UniversityDbCommon\obj\Debug\UniversityDbCommon.pdb
